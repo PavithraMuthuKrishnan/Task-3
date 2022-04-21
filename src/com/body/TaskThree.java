@@ -16,7 +16,7 @@ public class TaskThree {
 		driver.manage().window().maximize();
 		
 		WebElement txtUsername = driver.findElement(By.xpath("//input[@name='username']"));
-		txtUsername.sendKeys("MuthuKrishnan");
+		txtUsername.sendKeys("PavithraMuthukrishnan");
 		
         WebElement txtPassword = driver.findElement(By.xpath("//input[@name='password']"));
         txtPassword.sendKeys("12345");
